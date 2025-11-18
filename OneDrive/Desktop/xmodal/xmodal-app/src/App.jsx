@@ -128,7 +128,7 @@ const handleSubmit = (e) => {
           <div className="modal-content">
             <h2>Fill Details</h2>
 
-            <form>
+            <form onSubmit={handleSubmit}>
               <label>Username:</label>
               <input
                 id="username"
@@ -165,8 +165,7 @@ const handleSubmit = (e) => {
                 required
               />
 
-
-              <button className="submit-button" onClick={handleSubmit} >
+              <button className="submit-button" type="submit">
                 Submit
               </button>
             </form>
