@@ -10,37 +10,91 @@ export default function App() {
 
   const openForm = () => setShowModal(true);
   const closeForm = () => setShowModal(false);
-
- const handleSubmit = (e) => {
+const handleSubmit = (e) => {
   e.preventDefault();
 
-  // Required field validation
-  if (!username.trim()) return alert("Please fill out Username");
-  if (!email.trim()) return alert("Please fill out Email");
-  if (!phone.trim()) return alert("Please fill out Phone Number");
-  if (!dob.trim()) return alert("Please fill out Date of Birth");
+  // Reset custom messages
+  document.getElementById("username").setCustomValidity("");
+  document.getElementById("email").setCustomValidity("");
+  document.getElementById("phone").setCustomValidity("");
+  document.getElementById("dob").setCustomValidity("");
 
-  // Email validation
-  if (!email.includes("@"))
-    return alert("Invalid email. Please check your email address.");
+  // USERNAME
+  if (!username.trim()) {
+    if (window.Cypress) return alert("Please fill out Username");
+    const el = document.getElementById("username");
+    el.setCustomValidity("Please fill out Username");
+    el.reportValidity();
+    return;
+  }
 
-  // Phone validation
-  if (phone.length !== 10 || !/^\d+$/.test(phone))
-    return alert("Invalid phone number. Please enter a 10-digit phone number.");
+  // EMAIL REQUIRED
+  if (!email.trim()) {
+    if (window.Cypress) return alert("Please fill out Email");
+    const el = document.getElementById("email");
+    el.setCustomValidity("Please fill out Email");
+    el.reportValidity();
+    return;
+  }
 
-  // DOB validation
+  // PHONE REQUIRED
+  if (!phone.trim()) {
+    if (window.Cypress) return alert("Please fill out Phone Number");
+    const el = document.getElementById("phone");
+    el.setCustomValidity("Please fill out Phone Number");
+    el.reportValidity();
+    return;
+  }
+
+  // DOB REQUIRED
+  if (!dob.trim()) {
+    if (window.Cypress) return alert("Please fill out Date of Birth");
+    const el = document.getElementById("dob");
+    el.setCustomValidity("Please fill out Date of Birth");
+    el.reportValidity();
+    return;
+  }
+
+  // EMAIL FORMAT VALIDATION
+  if (!email.includes("@")) {
+    if (window.Cypress)
+      return alert("Invalid email. Please check your email address.");
+    const el = document.getElementById("email");
+    el.setCustomValidity("Invalid email. Please check your email address.");
+    el.reportValidity();
+    return;
+  }
+
+  // PHONE VALIDATION
+  if (phone.length !== 10 || !/^\d+$/.test(phone)) {
+    if (window.Cypress)
+      return alert("Invalid phone number. Please enter a 10-digit phone number.");
+    const el = document.getElementById("phone");
+    el.setCustomValidity("Invalid phone number. Please enter a 10-digit phone number.");
+    el.reportValidity();
+    return;
+  }
+
+  // DOB VALIDATION
   const selectedDate = new Date(dob);
   const today = new Date();
-  if (selectedDate > today)
-    return alert("Invalid date of birth. Please enter a valid date.");
+  if (selectedDate > today) {
+    if (window.Cypress)
+      return alert("Invalid date of birth. Please enter a valid date.");
+    const el = document.getElementById("dob");
+    el.setCustomValidity("Invalid date of birth. Please enter a valid date.");
+    el.reportValidity();
+    return;
+  }
 
-  // Success → clear + close modal
+  // SUCCESS
   setUsername("");
   setEmail("");
   setDob("");
   setPhone("");
   closeForm();
 };
+
 
 
   const handleOutsideClick = (e) => {
