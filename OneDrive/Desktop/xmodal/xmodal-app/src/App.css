@@ -1,0 +1,47 @@
+.app-container {
+  padding-top: 20px;
+}
+
+/* Dark overlay */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Makes modal appear just below title */
+  padding-top: 120px; /* Push modal below the heading */
+}
+
+/* Modal box */
+.modal-content {
+  background: white;
+  padding: 20px;
+  width: 544px;
+  height: 477px;
+  border-radius: 8px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.3);
+  text-align: center;
+
+}
+
+.modal-content input {
+  width: 90%;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  background: #1976D2;
+  padding: 10px;
+  border: none;
+  color: white;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+}
+.modal-content label{
+  font-weight: 600;
+}
+    
