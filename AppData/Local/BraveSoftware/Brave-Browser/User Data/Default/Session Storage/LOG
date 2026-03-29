@@ -1,0 +1,60 @@
+2026/03/03-00:04:58.696 12a4 Reusing MANIFEST C:\Users\Jigyasha\AppData\Local\BraveSoftware\Brave-Browser\User Data\Default\Session Storage/MANIFEST-000001
+2026/03/03-00:04:58.706 12a4 Recovering log #84
+2026/03/03-00:04:58.711 12a4 Reusing old log C:\Users\Jigyasha\AppData\Local\BraveSoftware\Brave-Browser\User Data\Default\Session Storage/000084.log 
+2026/03/03-00:06:42.078 3090 Level-0 table #88: started
+2026/03/03-00:06:42.088 3090 Level-0 table #88: 212674 bytes OK
+2026/03/03-00:06:42.091 3090 Delete type=0 #84
+2026/03/03-00:06:49.249 3090 Level-0 table #90: started
+2026/03/03-00:06:49.256 3090 Level-0 table #90: 198474 bytes OK
+2026/03/03-00:06:49.259 3090 Delete type=0 #87
+2026/03/03-00:06:49.260 3090 Compacting 4@0 + 1@1 files
+2026/03/03-00:06:49.275 3090 Generated table #91@0: 781 keys, 410365 bytes
+2026/03/03-00:06:49.275 3090 Compacted 4@0 + 1@1 files => 410365 bytes
+2026/03/03-00:06:49.276 3090 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/03-00:06:49.278 3090 Delete type=2 #81
+2026/03/03-00:06:49.278 3090 Delete type=2 #83
+2026/03/03-00:06:49.278 3090 Delete type=2 #85
+2026/03/03-00:06:49.278 3090 Delete type=2 #88
+2026/03/03-00:06:49.278 3090 Delete type=2 #90
+2026/03/03-00:07:20.689 3090 Level-0 table #93: started
+2026/03/03-00:07:20.707 3090 Level-0 table #93: 195305 bytes OK
+2026/03/03-00:07:20.710 3090 Delete type=0 #89
+2026/03/03-00:09:39.047 3090 Level-0 table #95: started
+2026/03/03-00:09:39.067 3090 Level-0 table #95: 193488 bytes OK
+2026/03/03-00:09:39.070 3090 Delete type=0 #92
+2026/03/03-00:09:51.268 3090 Level-0 table #97: started
+2026/03/03-00:09:51.289 3090 Level-0 table #97: 194890 bytes OK
+2026/03/03-00:09:51.291 3090 Delete type=0 #94
+2026/03/03-00:10:40.982 3090 Level-0 table #99: started
+2026/03/03-00:10:41.002 3090 Level-0 table #99: 193629 bytes OK
+2026/03/03-00:10:41.004 3090 Delete type=0 #96
+2026/03/03-00:10:41.005 3090 Compacting 4@0 + 1@1 files
+2026/03/03-00:10:41.019 3090 Generated table #100@0: 825 keys, 803065 bytes
+2026/03/03-00:10:41.019 3090 Compacted 4@0 + 1@1 files => 803065 bytes
+2026/03/03-00:10:41.020 3090 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/03-00:10:41.022 3090 Delete type=2 #91
+2026/03/03-00:10:41.022 3090 Delete type=2 #93
+2026/03/03-00:10:41.022 3090 Delete type=2 #95
+2026/03/03-00:10:41.022 3090 Delete type=2 #97
+2026/03/03-00:10:41.022 3090 Delete type=2 #99
+2026/03/03-00:10:47.150 3090 Level-0 table #102: started
+2026/03/03-00:10:47.170 3090 Level-0 table #102: 193728 bytes OK
+2026/03/03-00:10:47.172 3090 Delete type=0 #98
+2026/03/03-00:11:56.150 3090 Level-0 table #104: started
+2026/03/03-00:11:56.169 3090 Level-0 table #104: 193834 bytes OK
+2026/03/03-00:11:56.171 3090 Delete type=0 #101
+2026/03/03-00:12:51.285 3090 Level-0 table #106: started
+2026/03/03-00:12:51.292 3090 Level-0 table #106: 194488 bytes OK
+2026/03/03-00:12:51.294 3090 Delete type=0 #103
+2026/03/03-00:13:13.951 3090 Level-0 table #108: started
+2026/03/03-00:13:13.960 3090 Level-0 table #108: 386210 bytes OK
+2026/03/03-00:13:13.962 3090 Delete type=0 #105
+2026/03/03-00:13:13.963 3090 Compacting 4@0 + 1@1 files
+2026/03/03-00:13:13.990 3090 Generated table #109@0: 880 keys, 1770505 bytes
+2026/03/03-00:13:13.990 3090 Compacted 4@0 + 1@1 files => 1770505 bytes
+2026/03/03-00:13:13.991 3090 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/03-00:13:13.992 3090 Delete type=2 #100
+2026/03/03-00:13:13.992 3090 Delete type=2 #102
+2026/03/03-00:13:13.992 3090 Delete type=2 #104
+2026/03/03-00:13:13.992 3090 Delete type=2 #106
+2026/03/03-00:13:13.992 3090 Delete type=2 #108

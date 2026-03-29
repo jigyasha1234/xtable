@@ -1,0 +1,13 @@
+2026/03/03-00:02:28.594 3eac Reusing MANIFEST C:\Users\Jigyasha\AppData\Local\BraveSoftware\Brave-Browser\User Data\Default\IndexedDB\https_www.hotstar.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/03-00:02:28.595 3eac Recovering log #161
+2026/03/03-00:02:28.596 3eac Reusing old log C:\Users\Jigyasha\AppData\Local\BraveSoftware\Brave-Browser\User Data\Default\IndexedDB\https_www.hotstar.com_0.indexeddb.leveldb/000161.log 
+2026/03/03-00:02:28.623 3eac Level-0 table #166: started
+2026/03/03-00:02:28.627 3eac Level-0 table #166: 20868 bytes OK
+2026/03/03-00:02:28.629 3eac Delete type=0 #161
+2026/03/03-00:02:28.630 3eac Manual compaction at level-0 from '\x008\x00\x00\x00' @ 72057594037927935 : 1 .. '\x009\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/03/03-00:02:36.436 3e78 Compacting 1@1 + 1@2 files
+2026/03/03-00:02:36.499 3e78 Generated table #167@1: 2969 keys, 312886 bytes
+2026/03/03-00:02:36.499 3e78 Compacted 1@1 + 1@2 files => 312886 bytes
+2026/03/03-00:02:36.501 3e78 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/03-00:02:36.502 3e78 Delete type=2 #163
+2026/03/03-00:02:36.502 3e78 Delete type=2 #166

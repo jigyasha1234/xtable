@@ -1,0 +1,23 @@
+2026/03/03-00:04:58.699 3090 Reusing MANIFEST C:\Users\Jigyasha\AppData\Local\BraveSoftware\Brave-Browser\User Data\Default\Local Storage\leveldb/MANIFEST-000001
+2026/03/03-00:04:58.707 3090 Recovering log #177
+2026/03/03-00:04:58.714 3090 Reusing old log C:\Users\Jigyasha\AppData\Local\BraveSoftware\Brave-Browser\User Data\Default\Local Storage\leveldb/000177.log 
+2026/03/03-00:07:13.798 3090 Level-0 table #181: started
+2026/03/03-00:07:13.803 3090 Level-0 table #181: 29252 bytes OK
+2026/03/03-00:07:13.805 3090 Delete type=0 #177
+2026/03/03-00:11:13.799 3090 Level-0 table #183: started
+2026/03/03-00:11:13.814 3090 Level-0 table #183: 27454 bytes OK
+2026/03/03-00:11:13.817 3090 Delete type=0 #180
+2026/03/03-00:14:13.804 3090 Level-0 table #185: started
+2026/03/03-00:14:13.812 3090 Level-0 table #185: 45353 bytes OK
+2026/03/03-00:14:13.815 3090 Delete type=0 #182
+2026/03/03-00:14:13.816 3090 Compacting 4@0 + 1@1 files
+2026/03/03-00:14:13.825 3090 Generated table #186@0: 265 keys, 163117 bytes
+2026/03/03-00:14:13.825 3090 Compacted 4@0 + 1@1 files => 163117 bytes
+2026/03/03-00:14:13.826 3090 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/03-00:14:13.827 3090 Delete type=2 #176
+2026/03/03-00:14:13.827 3090 Delete type=2 #178
+2026/03/03-00:14:13.827 3090 Delete type=2 #181
+2026/03/03-00:14:13.827 3090 Delete type=2 #183
+2026/03/03-00:14:13.827 3090 Delete type=2 #185
+2026/03/03-00:14:16.612 3f3c Level-0 table #188: started
+2026/03/03-00:14:16.625 3f3c Level-0 table #188: 24163 bytes OK

@@ -1,0 +1,47 @@
+{
+   "checksum": "41d88dbf15c31497a3a2ae9c441c4f0a",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13406316873155554",
+            "date_last_used": "0",
+            "guid": "bbe84a9c-b81e-4d6f-8ae7-9d6a84d9d3bb",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Types of RC Questions (Concepts and Application) l Reading 02 l | CAT 2024 | MBA Wallah - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=UIIAMNHn4Jo&list=PLlxE9WKuvDj9frfrHcL-2wnxXyy4auLpe&index=6"
+         } ],
+         "date_added": "13406301326883895",
+         "date_last_used": "0",
+         "date_modified": "13406316873155554",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13406301326883895",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13406301326883895",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

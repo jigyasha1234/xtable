@@ -1,0 +1,14 @@
+{
+  "socketPath": "\\\\.\\pipe\\mcp-3d16adf4-ae6c-4abb-a98b-946e3f598b9a.sock",
+  "scheme": "pipe",
+  "headers": {
+    "Authorization": "Nonce 86d550ed-4d66-4a45-b863-88b3dd87c71c"
+  },
+  "pid": 6068,
+  "ideName": "Visual Studio Code",
+  "timestamp": 1772524483867,
+  "workspaceFolders": [
+    "c:\\Users\\Jigyasha\\OneDrive\\Desktop\\QEvent"
+  ],
+  "isTrusted": true
+}

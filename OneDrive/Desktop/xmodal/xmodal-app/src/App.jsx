@@ -95,10 +95,8 @@ const handleSubmit = (e) => {
   closeForm();
 };
 
-
-
   const handleOutsideClick = (e) => {
-    if (e.target.className === "modal-overlay") closeForm();
+    if (e.target.className === "modal") closeForm();
   };
 
   return (
@@ -124,7 +122,7 @@ const handleSubmit = (e) => {
 
       {/* MODAL */}
       {showModal && (
-        <div className="modal-overlay" onClick={handleOutsideClick}>
+        <div className="modal" onClick={handleOutsideClick}>
           <div className="modal-content">
             <h2>Fill Details</h2>
 
